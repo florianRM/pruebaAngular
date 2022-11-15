@@ -1,0 +1,11 @@
+.hightHealth {
+    color: green;
+}
+
+.mediumHealth {
+    color: rgb(181, 148, 15);
+}
+
+.lowHealth {
+    color: red;
+}

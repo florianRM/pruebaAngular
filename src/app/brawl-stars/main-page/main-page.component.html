@@ -1,0 +1,13 @@
+<h1>Brawl Stars</h1>
+<hr>
+<div class="row">
+    <div class="col">
+        <h3>Personajes</h3>
+        <hr>
+        <app-characters [characters]="characters"></app-characters>
+    </div>
+    <div class="col coladd">
+        <h3>Add character</h3>
+        <app-add-character [newCharacter]="newCharacter" [characters]="characters"></app-add-character>
+    </div>
+</div>

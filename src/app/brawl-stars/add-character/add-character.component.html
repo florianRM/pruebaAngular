@@ -1,0 +1,7 @@
+<form (ngSubmit)="addCharacter()">
+    <label for="name">Name</label><br>
+    <input type="text" name="name" class="name" [(ngModel)]="newCharacter.name"><br><br>
+    <label for="health">Health</label><br>
+    <input type="text" name="health" class="health" [(ngModel)]="newCharacter.health"><br><br>
+    <button type="submit">Add</button>
+</form>
